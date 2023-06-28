@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+	<head>
+		<meta charset="utf-8"/>
+		<meta name="author" content="Lalia Haidara"/>
+		<meta name="keywords" content="pfb, ProgressiveFitBall, parque, parque da cidade, atvidade ao ar livre"/> <!--até 150 caracteres-->
+		<meta name="description" content="Pratique atividade ao ar livre de maneira lúdica utilizando apenas o FitBall"><!-- 90 caracteres-->
+		<link rel="stylesheet" type="text/css" href="estilo.css">
+		
+		<title>PFB no Parque</title>
+	
+	</head>
+	<body> 
+		
+
+		<header>
+		<img id="img-topo" src="img/banner.png" alt="banner do site PFB no Parque com imagem do parque da cidade e logo do projeto" />
+       </header>
+
+
+       <nav>
+			<a class="a-menu" href="index.html">HOME</a> 
+			<a class="a-menu" href="index.html#pag-beneficios">BENEFÍCIOS</a>
+			<a class="a-menu" href="index.html#pag-modalidades">MODALIDADES</a>
+			<a class="a-menu" href="index.html#pag-treinos">TREINOS</a>
+			<a class="a-menu" href="#">AGENDAMENTO</a>
+	    </nav>
+		
+	    <section id="pag-agendamentos">
+
+		<h1>Agendamento</h1>
+	
+		
+		<p>Agende uma aula experimental grátis!</p>
+
+		<form name="" method="" action="">
+			
+			<label for="nome">Nome:</label>
+			<input type="text" name="nome_completo" id="nome" placeholder="Nome Completo" required autofocus />
+
+			<label for="email">E-mail:</label>
+			<input id="email" type="email" name="email" placeholder="nomeusuario@email.com" required />
+			
+			<label for="senha">Senha:</label>
+			<input id="senha" type="password" name="senha" placeholder="Somente números"  required />
+
+			<label for="celualr">Celular:</label>
+			<input id="celular" type="tel" name="celular" placeholder="(99)99999-9999" pattern="^\(?\d{2}\)\d{5}[-\s]\d{4}.*?$" />
+			
+			<div class="container">
+				<div class="itens-dha">
+					<label for="data">Data:</label>
+					<input id="data" type="date" name="data"/>
+				</div>
+				<div class="itens-dha">
+					<label for="hora">Hora:</label>
+					<input id="hora" type="time" name="hora"/>
+				</div>
+				<div class="itens-dha">
+					<label for="aulas">Aulas:</label>
+					<input id="aulas" type="number" name="aulas"  min="1" max="10" step="1" size="10" /><br>
+				</div>
+			</div>
+					<label for="nivel" >Nível:</label>
+					<select id="nivel" name="nivel" >
+						<option>Selecione</option>
+						<option value="iniciante">Iniciante</option>
+						<option value="basico">Básico</option>
+						<option value="intermediario">Intermediário</option>
+						<option value="avancado">Avançado</option>
+					</select><br>
+		
+			<fieldset>
+			
+				<legend>Gênero:</legend>
+				<input id="masc" type="radio" name="genero" value="masc" /> <label for="masc">Maculino</label><br>
+				<input id="fem" type="radio" name="genero" value="fem" /> <label for="fem">Feminino</label>
+			
+			</fieldset>
+
+
+			<fieldset>
+				
+				<legend>Atividades:</legend> 
+				<input id="musc" type="checkbox" name="atividades" value="musculacao"><label for="musc">Musculação</label><br>
+				<input id="pil" type="checkbox" name="atividades" value="pilates"><label for="pil">Pilates</label><br>
+				<input id="yoga" type="checkbox" name="atividades" value="yoga"><label for="yoga">Yoga</label><br>
+				<input id="corr" type="checkbox" name="atividades" value="corrida"><label for="corr">Corrida</label><br>
+
+			</fieldset>
+
+ 			<label for="msg">Mensagem:</label><br>
+ 			<textarea id="msg"></textarea>
+
+ 			<div class="container">
+				<input type="submit" name="btn-agendar" value="AGENDAR"/>
+				<input type="reset" name="btn-cancelar" value="CANCELAR" />
+			</div>
+
+		</form>
+
+	</section>
+
+        <footer>
+	
+ 		<p>Desenvolvido por <a href="https://www.instagram.com/laliahaidaras" target="_blank">Lalia Haidara</a> - 2023</p>
+        </footer>
+
+	</body>
+</html> 

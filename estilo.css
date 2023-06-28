@@ -1,0 +1,257 @@
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Poppins:wght@300;500;700&display=swap');
+
+
+
+
+
+*{margin: 0; padding: 0;}
+
+
+body{}
+
+header, #img-topo{
+   	width: 100%;
+   	background-color: #0191A4;
+}
+
+nav{background-color: #0191A4;
+	text-align: center;
+	padding: 20px;
+}
+
+
+a{
+ 	text-decoration: none;
+ 	font: 1.3em 'Poppins', sans-serif;
+ 	margin-right: 30px;
+
+ }
+.a-menu{ 
+	 
+	text-decoration: none;
+ 	font: 1.3em 'Poppins', sans-serif;
+ 	margin-right: 30px;}
+
+.a-menu:hover{color: #212121 ;}
+.a-menu:active{
+ 	color: #000;}
+
+.a-menu:link,.a-menu:visited{color: #FFF;}
+
+
+main,#pag-beneficios,#pag-modalidades,#pag-treinos{padding: 70px;}
+
+main{	background-color: #FFF;
+}
+
+
+
+h1,h3{
+	color: #3F5185;
+	font-family: 'Kaushan Script', cursive;
+	font-size: 3em;
+	text-align: center;
+	margin-bottom: 20px;
+}
+
+ p{
+ 	color: #757575;
+ 	font: 1.5em 'Poppins', sens-serif; 
+ 	text-align: justify;
+ 	font-weight: 300;
+ 	line-height: 1.5em;
+ }
+
+ section{
+ 	padding: 20px;
+ }
+
+#pag-beneficios{
+	background-color: #0191A4;
+}
+
+#pag-beneficios h2, #pag-beneficios p{
+	color: #FFF;
+	margin-bottom: 20px;
+}
+
+
+
+h2{
+	color: #3F5185;
+	font-family: 'Kaushan Script';
+	font-size: 3em;
+	text-align: left;
+}
+
+
+
+
+ul{
+	margin-left: 100px;
+	list-style-type: circle;
+	font-size: 23px;
+	list-style-position: inside;
+}
+
+
+
+li{
+	font-size: 1em;
+	color: #FFF;
+	font-family: 'Poppins', sens-serif;
+	line-height: 2em;
+} 
+
+#pag-modalidades{
+	background-color: #EEE;
+}
+
+
+.container{
+	display: flex;
+	justify-content: space-between;
+	margin-top: 20px; 
+}
+
+.card{
+	background-color: #FFF; 
+	width: 24%;
+	border-radius: 10px;
+	box-shadow: 10px 10px 10px grey;
+	transition: 
+}
+
+.card:hover{
+	box-shadow: 10px 10px 10px black;
+}
+
+
+.img-card{
+	width: 100%;
+	border-radius: 10px 10px 0px 0px;
+}
+
+
+.texto-card {
+	padding: 20px;
+}
+
+.texto-card{
+	font-size: 1em;
+	text-align: center;
+}
+
+h3{
+	font-size: 2em;
+}
+
+#pag-treinos{background-color: #FFF;}
+#pag-treinos p{
+	text-align: center;
+	margin-bottom: 10px;
+}
+
+span{
+	font-family: 'Poppins', sens-serif;
+	color: #212121;
+	size: 1em;
+}
+
+#container-treinos{display:flex;}
+
+.img-icones{
+	width: 30px;
+	height: 30px;
+	padding: 0px;
+}
+.coluna-treinos{
+	padding: 20px;
+}
+.img-video{
+	width: 500px;
+}
+
+
+.container-imgs{
+	margin-top: 40px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	
+}
+
+footer{background-color: #000;
+	padding: 20px;
+	color: #FFF;
+}
+footer p{
+	text-align: center;
+}
+footer a{
+	color: #FFF
+}
+footer a:hover{
+	color: #00BCD4;
+}
+
+
+
+
+/*pagina de agendamentos*/
+#pag-agendamentos{
+	background-color: #F0F0F0;
+}
+
+#pag-agendamentos p{
+	text-align: center;
+	margin-bottom: 20px;
+}
+
+form{
+	background-color: #FFF;
+	width: 500px;
+ 	margin: 20px auto;
+ 	padding: 20px;
+ 	border-radius: 10px;
+ 	box-shadow: 0 0 10px #CCC;
+}
+
+input, select, fieldset, textarea{
+	width: 100%;/*width com padding sao somados e ai precisar do box sizing*/
+	font: 1.0em 'Poppins', sens-serif; 
+	color: #757575;
+	font-weight: 300;
+	padding: 8px;
+	box-sizing: border-box;
+	margin-bottom: 10px;
+	border:1px solid #CCC;
+	border-radius: 5px;
+}
+
+label, legend{
+	font-weight: 300;
+	font: 1.0em 'Poppins', sens-serif; 
+	color: #212121;
+}
+
+input[type="radio"],input[type="checkbox"]  {
+	width: 30px;
+	margin-left: 50px;
+}
+
+input[type="submit"],input[type="reset"]{
+	border:none;
+	background-color: #8BC34A;
+	color: #FFF;
+	width: 45%;
+	border-radius: 10px;
+}
+
+input[type="reset"]{
+	background-color: #F47E7E;
+}
+
+.itens-dha{
+	width: 45%;
+}
